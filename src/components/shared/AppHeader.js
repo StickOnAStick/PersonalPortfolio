@@ -47,17 +47,23 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme === 'dark' ? (
-								<img
-									src={Logo}
-									className="w-14"
-									alt="Dark Logo"
-								/>
+								<div className="flex content-center">
+									<img
+										src={Logo}
+										className="w-14"
+										alt="Dark Logo"
+									/>
+									<span className="self-center ml-2 font-general-medium font-semibold leading-normal tracking-wider  text-lg md:text-xl lg:text-2xl xl:text-3xl text-center text-gray-800">Dimidik</span>
+								</div>
 							) : (
-								<img
-									src={Logo}
-									className="w-14"
-									alt="Dark Logo"
-								/>
+								<div className="flex content-center">
+									<img
+										src={Logo}
+										className="w-14"
+										alt="Dark Logo"
+									/>
+									<span className="self-center  ml-2 font-general-medium font-semibold leading-normal tracking-wider text-xl md:text-xl lg:text-2xl xl:text-3xl text-center text-gray-200">Dimidik</span>
+								</div>
 							)}
 						</Link>
 					</div>
