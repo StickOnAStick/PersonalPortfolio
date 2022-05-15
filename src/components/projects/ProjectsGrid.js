@@ -38,6 +38,7 @@ const ProjectsGrid = () => {
 				<div
 					className="
                         flex
+						flex-wrap
                         justify-between
                         border-b border-primary-light
                         dark:border-secondary-dark

@@ -1,26 +1,26 @@
-import { FiGithub, FiTwitter, FiInstagram, FiBook } from 'react-icons/fi';
+import { FiGithub, FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/StickOnAStick',
 	},
 	{
 		id: 2,
 		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		url: '#',
 	},
 	{
 		id: 3,
-		icon: <FiBook />,
-		url: 'https://stoman.medium.com',
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/nicholas-dimidik-71b20b159/',
 	},
 	{
 		id: 4,
 		icon: <FiInstagram />,
-		url: 'https://instagram.com/realstoman',
+		url: 'https://www.instagram.com/nicky_d_/',
 	},
 ];
 

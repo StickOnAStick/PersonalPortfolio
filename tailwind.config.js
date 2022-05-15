@@ -5,6 +5,9 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			animation: {
+				'spin-slow': 'spin 10s linear infinite',
+			},
 			colors: {
 				'primary-light': '#F7F8FC',
 				'secondary-light': '#FFFFFF',
