@@ -1,51 +1,42 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
+import WebImage1 from '../images/PortfolioProj2.jpg';
+import easyco from '../images/easy1.svg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+
+
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'React & Tailwindcss Portfolio',
 		category: 'Web Application',
-		img: WebImage2,
+		img: WebImage1,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
+			title: 'React & Tailwindcss Portfolio',
+			publishDate: 'May 16, 2022',
 			tags: 'UI / Frontend',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'MechanALink',
 		category: 'Mobile Application',
 		img: MobileImage2,
+		ProjectHeader: {
+			title: 'Web App',
+			publishDate: 'TBA',
+			tags: 'Mobile App',
+		},
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
+		title: 'Easy Co.',
 		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
+		img: easyco,
+		ProjectHeader: {
+			title: 'Easy Co. Machine Learning',
+			publishDate: 'TBA',
+			tags: 'Simplified Neural Network',
+		},
 	},
 ];

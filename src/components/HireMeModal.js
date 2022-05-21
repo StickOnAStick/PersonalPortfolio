@@ -1,15 +1,53 @@
 import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
+import { useRef, useState  } from 'react';
+import emailjs from '@emailjs/browser'
 
 const selectOptions = [
 	'Web Application',
 	'Mobile Application',
 	'UI/UX Design',
 	'Branding',
+	'Job Offer',
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
+
+
+	const form = useRef();
+	const [status, setStatus] = useState("Send Request");
+
+	const clearForm = () =>  {
+		form.current.reset();
+	}
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		setStatus("Sending..");
+
+		emailjs.sendForm('service_xh2i2r2', 'template_n6d02np', form.current, 'gM2Qeixu4TJ33cb1n')
+		.then((result) => {
+			//handle button text
+			setStatus("Sent! 😁");
+			setTimeout( () => {
+				setStatus("Submit");
+			}, 1000 );
+
+			//handle form
+			clearForm();
+
+		}, (error) => {
+			//handle button text
+			setStatus("Failed to send! ☠️")
+			console.log(error.text);
+
+			//handle form
+			clearForm();
+		});
+	};
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -37,16 +75,15 @@ const HireMeModal = ({ onClose, onRequest }) => {
 						</div>
 						<div className="modal-body p-5 w-full h-full">
 							<form
-								onSubmit={(e) => {
-									e.preventDefault();
-								}}
+								ref={form}
+								onSubmit={sendEmail}
 								className="max-w-xl m-4 text-left"
 							>
 								<div className="">
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-										id="name"
-										name="name"
+										id="user_name"
+										name="user_name"
 										type="text"
 										required=""
 										placeholder="Name"
@@ -57,7 +94,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name="email"
+										name="user_email"
 										type="text"
 										required=""
 										placeholder="Email"
@@ -98,7 +135,6 @@ const HireMeModal = ({ onClose, onRequest }) => {
 
 								<div className="mt-6 pb-4 sm:pb-1">
 									<span
-										onClick={onClose}
 										type="submit"
 										className="px-4
 											sm:px-6
@@ -111,7 +147,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 										aria-label="Submit Request"
 									>
-										<Button title="Send Request" />
+										<Button title={status} value="send" type="submit"/>
 									</span>
 								</div>
 							</form>
