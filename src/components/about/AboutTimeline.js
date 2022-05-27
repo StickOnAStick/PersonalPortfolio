@@ -19,7 +19,7 @@ const AboutTimeline = () => {
                           <div className="flex items-center justify-end w-full mx-auto">
                             <div className="w-full lg:w-1/2 lg:pl-8">
                               <div className="p-4 shadow-lg bg-indigo-50 dark:bg-ternary-dark rounded text-ternary-dark dark:text-ternary-light">
-                              <header class="flex justify-between">
+                              <header className="flex justify-between">
                                 <h3 className="font-general-medium font-semibold leading-normal tracking-wider text-lg">{obj.title}</h3>
                                 <span className="font-bold tracking-wide text-lg">{obj.date}</span>
                               </header>
@@ -41,7 +41,7 @@ const AboutTimeline = () => {
                           <div className="flex items-center justify-end w-full mx-auto">
                             <div className="w-full lg:w-1/2 lg:pl-8">
                               <div className="p-4 shadow-lg bg-indigo-50 dark:bg-ternary-dark rounded text-ternary-dark dark:text-ternary-light">
-                              <header class="flex justify-between">
+                              <header className="flex justify-between">
                                 <h3 className="font-general-medium font-semibold leading-normal tracking-wider text-lg">{obj.title}</h3>
                                 <span className="font-bold tracking-wide text-lg">{obj.date}</span>
                               </header>
@@ -65,7 +65,7 @@ const AboutTimeline = () => {
                         <div className="flex items-center justify-start w-full mx-auto">
                           <div className="w-full lg:w-1/2 lg:pr-8">
                             <div className="p-4 shadow-lg bg-indigo-50 dark:bg-ternary-dark rounded text-ternary-dark dark:text-ternary-light">
-                              <header class="flex justify-between">
+                              <header className="flex justify-between">
                                 <h3 className="font-general-medium font-semibold leading-normal tracking-wider text-lg">{obj.title}</h3>
                                 <span className="font-bold tracking-wide text-lg">{obj.date}</span>
                               </header>

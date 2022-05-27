@@ -3,12 +3,17 @@ import { singleProjectData as singleProjectDataJson } from '../data/singleProjec
 
 const SingleProjectContext = createContext();
 
-export const SingleProjectProvider = ({ children }) => {
+export const SingleProjectProvider = ({ children, ...title }) => {
+	
+	
+	const selectedTitle = title.projectTitle;
+	
 	
 	const [singleProjectData, setSingleProjectData] = useState(
-		singleProjectDataJson
+		singleProjectDataJson.find(project => project.ProjectHeader.title === selectedTitle)
 	);
 
+	
 	return (
 		<SingleProjectContext.Provider
 			value={{ singleProjectData, setSingleProjectData }}
