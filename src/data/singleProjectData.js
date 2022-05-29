@@ -21,17 +21,17 @@ export const singleProjectData = [
 		ProjectImages: [
 			{
 				id: 1,
-				title: 'Kabul Project Management UI',
+				title: 'Portfolio Project',
 				img: Image1,
 			},
 			{
 				id: 2,
-				title: 'Kabul Project Management UI',
+				title: 'Portfolio Project',
 				img: Image2,
 			},
 			{
 				id: 3,
-				title: 'Kabul Project Management UI',
+				title: 'Portfolio Project',
 				img: Image3,
 			},
 		],
@@ -80,22 +80,22 @@ export const singleProjectData = [
 				{
 					id: 1,
 					details:
-						'The challenge for this project was that I was going to be taking all of the skills Id learnt over the last half a year and create my first production ready website. ',
+						"This project was that I was going to be taking all of the skills I'd learnt over the last half a year and create my first production ready website. Conjoining all my past experinces into this project allowed for skill homogenization, and orientation towards delivery of a quality end-product.",
 				},
 				{
 					id: 2,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"React was the front-end framework of choice as it was a good step up in functionality, performance, and widespread use from earlier projects of mine which relied on pure HTML/CSS/JS or Flask Apps. Many prototypes of this website were built, but as I was still learning the ropes of the framework many grew to unmaintable messes by over-compartmentalizing every component into it's own file. Adding to this, having individual css files for the overabundance of components made modifying or creating components a much more tedious task.",
 				},
 				{
 					id: 3,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"During my frustrations I stumbled across a video by FireShipIO about tailwindcss a lightweight, class-based css framework. Utilizing tailwindcss I was able to prototype and test at a much faster pace, allowing me to discover the novelities and structure of a proper react app.",
 				},
 				{
 					id: 4,
 					details:	
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						"After everything, I've been left with the website before you. This was only the beginning of my portfolio, but I intend to keep adamant with my passions and create what I believe to make the world a better place.",
 				},
 			],
 			SocialSharingHeading: 'Share This',
@@ -130,8 +130,8 @@ export const singleProjectData = [
 	{
 		ProjectHeader: {
 			title: 'MechanALink',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			publishDate: 'May 1, 2022',
+			tags: 'Mobile App',
 		},
 		ProjectImages: [
 			{
@@ -161,22 +161,22 @@ export const singleProjectData = [
 				{
 					id: 2,
 					title: 'Services',
-					details: 'UI Design & Frontend Development',
+					details: 'Full-Stack Web & Mobile App',
 				},
 				{
 					id: 3,
 					title: 'Website',
-					details: 'https://company.com',
+					details: 'TBD',
 				},
 				{
 					id: 4,
 					title: 'Phone',
-					details: '555 8888 888',
+					details: 'TBD',
 				},
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
-				'Quickly launch a React & Tailwindcss portfolio, that meets personal standards to quality, ease of use, functionality, and refine project organization.',
+				'Create a Web & Native mobile app to aliviate customer distrust in the vehicle mechanics by bringing the customer closer to the vehcile while in shop; as well as, provide resources for general public to have access to rentalable industrial grade-equipment. ',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -185,6 +185,7 @@ export const singleProjectData = [
 						'CSS',
 						'JavaScript',
 						'React',
+						'React Native',
 						'TailwindCSS',
 						'SvGator',
 					],
@@ -195,22 +196,22 @@ export const singleProjectData = [
 				{
 					id: 1,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'',
 				},
 				{
 					id: 2,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'',
 				},
 				{
 					id: 3,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'',
 				},
 				{
 					id: 4,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'',
 				},
 			],
 			SocialSharingHeading: 'Share This',
