@@ -1,4 +1,5 @@
 import projectTimeline from '../../data/projectTimeline.js'
+import React from 'react';
 
 const AboutTimeline = () => {
     return(

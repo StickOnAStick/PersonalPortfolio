@@ -3,6 +3,7 @@ import AppBanner from '../components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
+import React from 'react';
 
 const Home = () => {
 	return (

@@ -2,6 +2,9 @@
 import Image1 from '../images/ui-project-1.jpg';
 import Image2 from '../images/web-project-2.jpg';
 import Image3 from '../images/mobile-project-2.jpg';
+import Easy2 from '../images/Easy2.jpg';
+import Easy3 from '../images/Easy3.jpg';
+import Easy from '../images/Easy1.jpg';
 
 // Import icons
 import {
@@ -10,6 +13,7 @@ import {
 	FiLinkedin,
 	FiGithub
 } from 'react-icons/fi';
+import React from 'react';
 
 export const singleProjectData = [
 	{
@@ -130,7 +134,7 @@ export const singleProjectData = [
 	{
 		ProjectHeader: {
 			title: 'MechanALink',
-			publishDate: 'May 1, 2022',
+			publishDate: 'March, 2022',
 			tags: 'Mobile App',
 		},
 		ProjectImages: [
@@ -191,27 +195,27 @@ export const singleProjectData = [
 					],
 				},
 			],
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'Concept & Origins',
 			ProjectDetails: [
 				{
 					id: 1,
 					details:
-						'',
+						"Conceptulization of MechanALink began as I was beginning to feel comfortable with modern frameworks like React, and wanted to see what other projects I could conjure up. It was during this time that I'd gotten the itch for a 'million dollar app idea' as so many other young developers do, which resulted in the formation of MechanALink (temporary name).",
 				},
 				{
 					id: 2,
 					details:
-						'',
+						"The original purpose for the app was to provide the public with rentable industrial tooling, and small mechanic shops with a way to rent out their equipment on a pay-per-hour basis. I'd gotten the idea for this after watching epoxy table crafters on YouTube who'd frequently need to rent out industrial planners to level large wood table tops, and saw through the millions of views and comments that many others wished that such a service existed near them for their own crafts. The goal of the project was to provide communities with such a hub in which they can have preferential access to tooling, and the shops would be able to make income off of unused equipment time.",
 				},
 				{
 					id: 3,
 					details:
-						'',
+						"During the conceptulization my girlfriend had also began running into car troubles, which required multiple visits to various mechanic shops. Much of this time was met with distrought as what would always seem to be a simple fix would expand into a large bundle of problems that needed urgent repair according to the salesman at the front. After multiple mechanic visits, all of which gave various differing issues listed for needing repair, I'd became frustrated at the state of these secrecy and upselling that these shops used to upsell customers. This is when I'd decided to expand on the app into MechanALink, which would serve to elimate the curtain that hides the customer from repairs.",
 				},
 				{
 					id: 4,
 					details:
-						'',
+						"The current goal to accomplish this is to to have mechanics photograph and document every part in need of repair, and subit a message to customers when other items not initially disclosed are also in need of repair or inspection. After more consideration to the idea I realized that yelp already provides such features for mechanic shops and decided to scrap the idea; however, I plan on continuing with the original plan for rentalable industrial equipment under the name of ShopStop as for now. ",
 				},
 			],
 			SocialSharingHeading: 'Share This',
@@ -246,24 +250,24 @@ export const singleProjectData = [
 	{	
 		ProjectHeader: {
 			title: 'Easy Co.',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			publishDate: 'May, 2022',
+			tags: 'FullStack / AI',
 		},
 		ProjectImages: [
 			{
 				id: 1,
 				title: 'Kabul Project Management UI',
-				img: Image1,
+				img: Easy,
 			},
 			{
 				id: 2,
 				title: 'Kabul Project Management UI',
-				img: Image2,
+				img: Easy2,
 			},
 			{
 				id: 3,
 				title: 'Kabul Project Management UI',
-				img: Image3,
+				img: Easy3,
 			},
 		],
 		ProjectInfo: {
@@ -271,23 +275,23 @@ export const singleProjectData = [
 			CompanyInfo: [
 				{
 					id: 1,
-					title: 'Test Name',
+					title: 'Name',
 					details: 'Self',
 				},
 				{
 					id: 2,
 					title: 'Services',
-					details: 'UI Design & Frontend Development',
+					details: 'Machine Learning in App',
 				},
 				{
 					id: 3,
 					title: 'Website',
-					details: 'https://company.com',
+					details: 'TBD',
 				},
 				{
 					id: 4,
 					title: 'Phone',
-					details: '555 8888 888',
+					details: 'TBD',
 				},
 			],
 			ObjectivesHeading: 'Objective',
@@ -306,27 +310,27 @@ export const singleProjectData = [
 					],
 				},
 			],
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'Concept & Origins',
 			ProjectDetails: [
 				{
 					id: 1,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						"Easy Co. serves to aliviate most mundane input based jobs and allow for automatic data processing with high level data abstractions. Easy will automatically scan for input data and feed it into a neural network, generating high level abstractions of the data. Put simply, Easy plans to overtake Excel.",
 				},
 				{
 					id: 2,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"Easy's idea came about after learning about WebApps using Electron, such as Discord, and personal interest as well as industry shift towards neural network (AI) usage. Every industry needs a spreadsheet, and many are still learning how to incorperate these networks for their benefit. Seeing the potential for this market, time should not be wasted towards discovery and production of the tool of tommorow.",
 				},
 				{
 					id: 3,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"",
 				},
 				{
 					id: 4,
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						"",
 				},
 			],
 			SocialSharingHeading: 'Share This',

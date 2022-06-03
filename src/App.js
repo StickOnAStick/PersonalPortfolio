@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 import ProjectSingle from './pages/ProjectSingle';
 import { AnimatePresence } from 'framer-motion';
 import UseScrollToTop from './hooks/useScrollToTop';
+import React from 'react';
 
 function App() {
 	return (

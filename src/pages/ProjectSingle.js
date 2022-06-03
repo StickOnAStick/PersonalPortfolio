@@ -5,6 +5,8 @@ import ProjectInfo from '../components/projects/ProjectInfo';
 import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 import { useParams } from 'react-router-dom';
+import React from 'react';
+
 
 const ProjectSingle = () => {
 

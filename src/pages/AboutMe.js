@@ -4,6 +4,7 @@ import AboutMeBio from '../components/about/AboutMeBio';
 import { AboutMeProvider } from '../context/AboutMeContext';
 import AboutTimeline from '../components/about/AboutTimeline';
 import { motion } from 'framer-motion';
+import React from 'react';
 
 const About = () => {
 	return (

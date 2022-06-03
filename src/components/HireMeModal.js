@@ -3,6 +3,7 @@ import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 import { useRef, useState  } from 'react';
 import emailjs from '@emailjs/browser'
+import React from 'react';
 
 const selectOptions = [
 	'Web Application',

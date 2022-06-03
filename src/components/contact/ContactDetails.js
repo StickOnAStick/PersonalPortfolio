@@ -1,5 +1,6 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 
+import React from 'react';
 const contacts = [
 	{
 		id: 1,

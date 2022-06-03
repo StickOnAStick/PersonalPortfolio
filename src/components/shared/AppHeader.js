@@ -6,6 +6,7 @@ import HireMeModal from '../HireMeModal';
 import Logo from '../../images/Logo.svg'
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
+import React from 'react';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
