@@ -3,7 +3,7 @@ import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
