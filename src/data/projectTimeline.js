@@ -3,6 +3,7 @@ import ProjImg2 from '../images/Timeline/cpp.jpg'
 import ProjImg3 from '../images/Timeline/html-css.jpg'
 import ProjImg4 from '../images/Timeline/react.png'
 import ProjImg5 from '../images/Timeline/neuralnet.png'
+import ProjImg6 from '../images/Timeline/xircle.png'
 
 const projectTimeline = [
     {
@@ -44,6 +45,14 @@ const projectTimeline = [
         desc: "After learning how to build modern webapps, I began looking at what's on the cutting edge of technology and this is where my journey into AI began. I'm now currently working on mastering AI and coupling it's massive data-crunching ability into a webapp for the market.",
         date: "2022",
         projLink: "#"
+    },
+    {
+        id: 6,
+        title: "Joined Xircle",
+        img: ProjImg6,
+        desc: "Began work at Xircle, devloping college peer-connections social media platform for IOS, Android, and Web. The platform is being built off of a React Native front-end and used AWS for the backend.",
+        date: "July 2022",
+        projLink: "https://www.xircleapp.com/"
     },
 ];
 

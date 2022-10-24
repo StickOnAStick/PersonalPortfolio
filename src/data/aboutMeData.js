@@ -5,6 +5,6 @@ export const aboutMeData = [
 	},
 	{
 		id: 2,
-		bio: 'Free time is split between personal projects, psychoanalytics & general psychology studies, and leasure time. Always love to work and create meaningful tools and personal connections.',
+		bio: 'Free time is split between personal endeavors, ai development, and studies. Always love to work and create meaningful tools and personal connections.',
 	},
 ];
