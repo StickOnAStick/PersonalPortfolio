@@ -16,7 +16,7 @@ function AppFooterCopyright() {
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 					onClick={handleCopyRightReference}
 				>
-					React & TailwindCSS Portfolio
+					React & Tailwind CSS Portfolio
 				</a>
 				
 			
